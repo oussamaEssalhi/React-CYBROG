@@ -1,0 +1,55 @@
+.main-hero {
+  background-image: url("../../assets/img/banner-bg.jpg");
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-radius: var(--border-primary);
+  padding: var(--padding-primary);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+
+}
+
+.hero-title {
+  max-width: 500px;
+}
+
+.hero-title {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  font-weight: 900;
+}
+
+.hero-title em {
+  font-style: normal;
+  color: var(--color-primary);
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.main-button a {
+  padding: 12px 30px;
+  border-radius: var(--border-primary);
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  transition: .8s;
+  font-weight: 500;
+}
+
+.main-button a:hover {
+  background-color: white;
+  color: var(--color-primary);
+}
+
+@media (max-width:767px) {
+  .hero-title {
+    font-size: 30px;
+  }
+}

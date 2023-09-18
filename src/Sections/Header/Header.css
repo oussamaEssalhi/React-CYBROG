@@ -1,0 +1,36 @@
+.cyborg-navbar {
+  min-height: 100px;
+}
+
+.headrer-nav .nav-link {
+  transition: all .8s;
+}
+
+.headrer-nav .nav-link:hover {
+  color: var(--color-primary);
+}
+
+.headrer-nav {
+  align-items: center;
+
+}
+
+.profil-link {
+  display: flex;
+  background-color: #27292a;
+  border-radius: 23px;
+  padding: 4px 10px;
+
+}
+
+.profil-link img {
+  border-radius: 50%;
+}
+
+.profil-link:hover {
+  background-color: var(--color-primary);
+}
+
+.profil-link:hover .nav-link {
+  color: white;
+}

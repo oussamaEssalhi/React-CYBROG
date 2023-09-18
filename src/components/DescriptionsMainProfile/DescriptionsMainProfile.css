@@ -1,0 +1,26 @@
+.description-profile {
+  background-color: #27292a;
+  padding: 30px;
+  border-radius: 23px;
+}
+
+.description-profile li {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #666;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description-profile li .firestSpan {
+  font-size: 18px;
+ 
+}
+
+.description-profile li span:last-child {
+  color: var(--color-primary);
+  font-weight: 800;
+  font-size: 16px;
+}

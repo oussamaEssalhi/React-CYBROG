@@ -1,0 +1,20 @@
+.section-wrapper {
+  background-color: var(--color-darkest);
+  padding: var(--padding-primary);
+  border-radius: var(--border-primary);
+  margin-top: var(--margin-primary);
+}
+
+@media(max-width:767px) {
+  .section-wrapper {
+    padding: calc(var(--padding-primary)/2)
+  }
+}
+
+.SectionWrapperSecondary {
+  background-color: var(--color-darkest);
+  padding: calc(var(--padding-primary) / 2);
+  border-radius: var(--border-primary);
+  margin-top: calc(var(--margin-primary)/2);
+
+}

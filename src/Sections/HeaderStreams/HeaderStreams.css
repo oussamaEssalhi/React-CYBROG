@@ -1,0 +1,29 @@
+.header-streams-live-streams span,
+.header-streams-top-live span {
+  color: var(--color-primary);
+}
+
+.header-streams {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-streams-live-streams {
+  width: 65%;
+}
+
+.header-streams-top-live {
+  width: 380px;
+}
+
+@media (max-width:992px) {
+  .header-streams {
+    flex-wrap: wrap;
+  }
+
+  .header-streams-live-streams,
+  .header-streams-top-live {
+    width: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+.browse-header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.featured-game {
+  width: 70%;
+}
+
+.top-downloaded {
+  width: 350px;
+}
+
+@media (max-width:992px) {
+  .browse-header {
+    flex-wrap: wrap;
+  }
+
+  .featured-game,
+  .top-downloaded {
+    width: 100%;
+  }
+}

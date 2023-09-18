@@ -1,0 +1,95 @@
+.card-slide-image {
+  width: 100%;
+}
+
+.card-slide-image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 23px;
+}
+
+.description-game {
+  padding: 20px 0;
+}
+
+.header-desc-game {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-desc-game h4 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+
+
+
+.footer-desc-game {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-desc-game h4 {
+  font-size: 15px;
+  color: #666;
+  font-weight: 500;
+
+}
+
+.download-game-browser,
+.start-game-browser {
+  color: white;
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.card-slide-image {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.card-slide-image::after {
+  content: "2.6K Streaming";
+  position: absolute;
+  font-size: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+  width: 70%;
+  color: var(--color-primary);
+  text-align: center;
+  background-color: var(--color-darkest);
+  border-radius: 23px;
+  border: 1px solid var(--color-primary);
+  padding: 5px 10px;
+  transition: .8s;
+
+}
+
+@media (max-width:1200px) {
+  .card-slide-image::after {
+    font-size: 12px;
+    padding: 7px;
+  }
+}
+
+@media (max-width:992px) {
+  .card-slide-image::after {
+    font-size: 14px;
+  }
+
+  .footer-desc-game h4,
+  .header-desc-game h4 {
+    font-size: 14px;
+  }
+
+}
+
+.card-slide-image:hover::after {
+  bottom: 30px;
+}

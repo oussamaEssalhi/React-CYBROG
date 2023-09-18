@@ -1,0 +1,12 @@
+.more-download {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.more-download a {
+  color: var(--color-primary);
+  margin-top: 27px;
+  display: block;
+  margin: 10px 0 -20px;
+  font-weight: 800;
+}

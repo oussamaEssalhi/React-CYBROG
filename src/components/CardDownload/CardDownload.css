@@ -1,0 +1,36 @@
+.card-game-download {
+padding:20px 0 ;
+  border-bottom: 1px solid #27292a;
+}
+
+.card-downlod {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-downlod-image img {
+  border-radius: 23px;
+}
+
+.card-downlod-detail h4 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.card-downlod-detail h6 {
+  font-size: 15px;
+  color: #666;
+  margin: 0;
+      margin-bottom: 10px;  
+}
+
+.downloaded-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: #27292a;
+  text-align: center;
+  line-height: 46px;
+}

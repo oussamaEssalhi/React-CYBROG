@@ -1,0 +1,55 @@
+.main-profile {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  justify-content: space-around;
+  align-items: center;
+
+  border-bottom: 1px solid #27292a;
+}
+
+@media (max-width:992px) {
+  .main-profile {
+    flex-wrap: wrap;
+  }
+}
+
+.Section-one img {
+  width: 100%;
+  border-radius: 23px;
+
+}
+
+.Section-one,
+.Section-two,
+.Section-three {
+  width: 380px;
+}
+
+.Section-two {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.Section-two h4 {
+  font-size: 27px;
+  font-weight: 800;
+  margin-top: -10px;
+}
+
+.Section-two p {
+  color: #666;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+@media (max-width:992px) {
+  .Section-two {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    order: 2;
+  }
+}

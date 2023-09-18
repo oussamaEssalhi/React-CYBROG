@@ -1,0 +1,50 @@
+.card-ive-tream {
+  padding: 30px;
+  border: 1px solid #444;
+  border-radius: 23px;
+  transition: .6s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-ive-tream::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  border-radius: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(198, 204, 214, 0.192);
+  transition: .3s;
+
+}
+
+.card-ive-tream:hover::before {
+  width: 1000%;
+  height: 1000%;
+}
+
+.card-ive-tream:hover {
+  transform: translateY(-20px);
+}
+
+.card-ive-tream-icon {
+  padding-bottom: 20px;
+}
+
+.card-ive-tream-icon img {
+  border-radius: 50%;
+
+}
+
+.card-ive-tream p {
+  color: #666;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.card-ive-tream h4 {
+  font-weight: 700;
+}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-CYBROG/static/css/main.e1a9d04f.css",
-    "main.js": "/React-CYBROG/static/js/main.51f50d19.js",
+    "main.js": "/React-CYBROG/static/js/main.8c400b33.js",
     "static/media/feature-right.jpg": "/React-CYBROG/static/media/feature-right.01ad26795580300e2029.jpg",
     "static/media/feature-left.jpg": "/React-CYBROG/static/media/feature-left.2e7e18e857172344a46d.jpg",
     "static/media/details-02.jpg": "/React-CYBROG/static/media/details-02.4c3a5cf3e64cb6cc18f5.jpg",
@@ -29,10 +29,10 @@
     "static/media/popular-03.jpg": "/React-CYBROG/static/media/popular-03.1c8955f99df2b3b94391.jpg",
     "index.html": "/React-CYBROG/index.html",
     "main.e1a9d04f.css.map": "/React-CYBROG/static/css/main.e1a9d04f.css.map",
-    "main.51f50d19.js.map": "/React-CYBROG/static/js/main.51f50d19.js.map"
+    "main.8c400b33.js.map": "/React-CYBROG/static/js/main.8c400b33.js.map"
   },
   "entrypoints": [
     "static/css/main.e1a9d04f.css",
-    "static/js/main.51f50d19.js"
+    "static/js/main.8c400b33.js"
   ]
 }
